@@ -142,6 +142,46 @@ h1{
 /*---------------------------- Button----------------------------------- */
 
 
+/* Remove border-radius from dropdown */
+.dropdown-menu {
+    border-radius: 0; 
+    border: 1px solid #ddd; 
+    padding: 0; 
+  }
+
+
+
+  /* When hovering over the nav-item or dropdown menu, display the dropdown */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block; 
+  }
+
+  /* Style the dropdown items */
+  .dropdown-item {
+    padding: 10px 20px; 
+    color: #333; 
+    background-color: #fff; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+  /* Hover effect for dropdown items */
+  .dropdown-item:hover {
+    background-color: #c5a067; 
+    color: white; 
+  }
+
+  .dropdown-divider{
+    margin: 0;
+  }
+
+  /* Hover effects can be added if needed */
+.tm-button:hover, a.tm-button:hover, button.tm-button:hover {
+    background-color: var(--hover-color); 
+    color: var(--background-color); 
+}
+  /* Hover effect for
+
+
 header {
     border-top: 2px solid red;
     position: fixed;
@@ -534,6 +574,25 @@ transform-origin: center;
 }
 
 /* service program  */
+/* The overlay */
+.tm-section-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(0deg, rgba(27, 30, 49, 1) 50%, rgba(27, 30, 49, 0.05) 100%);
+    z-index: 1;
+}
+.tm-section-bg{
+    position: relative;
+}
+
+.tm-section-bg .container{
+    position: relative;
+    z-index: 2;
+}
 
 .services-area-header > p {
     margin: 0px auto 40px auto;
@@ -800,7 +859,7 @@ i {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(https://sasna-html.vercel.app/sasna/assets/images/icons/bg-map-shapes.png);
+    /* background-image: url(https://sasna-html.vercel.app/sasna/assets/images/icons/bg-map-shapes.png); */
     background-repeat: no-repeat;
     background-position: center left;
     opacity: 0.6;
@@ -1077,9 +1136,9 @@ input, button, select, textarea {
 }
 
 .footer-bottomarea {
-    border-top: 1px solid var(--primary-color);
+    border-top: 1px solid #603F26;
     padding: 25px 0;
-    background-color: var(--primary-color);
+    background-color: #00000053
 }
 
 .footer-copyright {

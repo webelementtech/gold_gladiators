@@ -986,7 +986,7 @@ a{
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(https://sasna-html.vercel.app/sasna/assets/images/icons/bg-map-shapes.png);
+    /* background-image: url(https://sasna-html.vercel.app/sasna/assets/images/icons/bg-map-shapes.png); */
     background-repeat: no-repeat;
     background-position: center left;
     opacity: 0.6;
@@ -1001,7 +1001,7 @@ a{
     position: relative;
     background-position: 95% 90%;
     background-repeat: no-repeat;
-    background-image: url(https://sasna-html.vercel.app/sasna/assets/images/testimonial/testimonial.svg);
+    /* background-image: url(https://sasna-html.vercel.app/sasna/assets/images/testimonial/testimonial.svg); */
 }
 
 
