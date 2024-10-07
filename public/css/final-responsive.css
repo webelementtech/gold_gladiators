@@ -36,6 +36,10 @@
     .carousel-control-next{
         margin-right: 50px;
     }
+
+    .wrap{
+        text-wrap: nowrap;
+    }
 }
 
 @media only screen and (max-width:992px){
@@ -109,6 +113,10 @@
 
 
 @media (max-width: 576px) {
+
+    .plan {
+        padding: 0 0px; 
+    }
 
     .about-content .title{
         padding-top: 50px;
@@ -186,3 +194,13 @@
 }
 
 /* service section end  */
+
+
+
+/* pricing section  */
+
+/* @media (max-width: 576px){
+    .pricing-area-header h2{
+        font-size: 32px;
+    }
+} */

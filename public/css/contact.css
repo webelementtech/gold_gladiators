@@ -1,14 +1,11 @@
 
-@import url("https://fonts.googleapis.com/css?family=Lato:300,900");
 
-
+/* 
   .breadcrumb {
   margin: 1rem 0;
   padding: 0.8em 1em;
   border-radius: 0.3rem;
   position: relative;
-  /* bottom: 30px; */
-  /* background: rgb(76, 149, 108); */
 }
 
 .breadcrumb ol {
@@ -32,9 +29,9 @@
   color: rgb(255, 255, 100);
   font-weight: 700;
   text-decoration: none;
-}
+} */
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
 
   .breadcrumb li:nth-last-child(2) {
     display: flex;
@@ -63,15 +60,15 @@
     height: 20px;
     content: "";
   }
-}
+} */
 
-.icon {
+/* .icon {
   display: inline-block;
   width: 20px;
   height: 20px;
-}
+} */
 
-.sr-only:not(:focus):not(:active) {
+/* .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -79,42 +76,43 @@
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
+} */
 
 /* some basic styling (added to the bottom for convenience) */
 * {
   box-sizing: border-box;
 }
 
-a,
+/* a,
 a:link,
 a:visited {
   color: #603f26;
   transition: color 0.3s;
-}
+} */
 
 
-a:focus {
+/* a:focus {
   outline-color: rgb(254, 254, 227);
-}
+} */
 
-.container {
+/* .container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
   padding-top: 10px;
-}
+} */
 /* ---------------------------------------------------------------- */
 
 
-body {
+/* body {
   font-family: "Baskervville";
   background: #FFF6EA;
-  /* padding: 100px 60px; */
+  padding: 100px 60px;
   -webkit-animation: fade-in 2s ease-in-out forwards;
   animation: fade-in 2s ease-in-out forwards;
-}
-.imgCont{
+} */
+
+/* .imgCont{
   height: 400px;
 }
 .imgCont img{
@@ -134,10 +132,10 @@ strong {
 }
 
 .img_container {
-  /* background-color: rgb(27 24 18); */
+
   width: 100%;
   height: 400px;
-  /* height: 80vh; */
+
 }
 
 .img_container img,
@@ -149,11 +147,8 @@ strong {
 }
 
 .img_container.top_img {
-  /* background-image: url(../images/17531.jpg); */
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(209, 174, 255)); */
-  /* background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(59, 0, 87)); */
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -173,7 +168,7 @@ strong {
   border: 2px solid rgb(255, 47, 47);
 }
 /* ------ Send Button ----------- */
-.SendBtn{
+/* .SendBtn{
   background-color: #1cb9c8;
   border: none;
 }
@@ -273,7 +268,6 @@ strong {
 }
 
 .canvas_copy_subtitle {
-  /* color: red; */
   display: block;
   transform: rotate(270deg) translateY(-100%) translateX(calc(-100% - 80px));
   transform-origin: top left;
@@ -336,9 +330,9 @@ strong {
 .canvas:hover .rect-gradient {
   -webkit-animation: draw-line 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   animation: draw-line 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-}
+} */ */
 
-@-webkit-keyframes draw-line {
+/* @-webkit-keyframes draw-line {
   from {
     stroke-dashoffset: 2000;
   }
@@ -346,9 +340,9 @@ strong {
   to {
     stroke-dashoffset: 0;
   }
-}
+} */
 
-@keyframes draw-line {
+/* @keyframes draw-line {
   from {
     stroke-dashoffset: 2000;
   }
@@ -356,8 +350,8 @@ strong {
   to {
     stroke-dashoffset: 0;
   }
-}
-
+} */
+/* 
 @-webkit-keyframes erase-line {
   from {
     stroke-dashoffset: 0;
@@ -366,9 +360,9 @@ strong {
   to {
     stroke-dashoffset: 2000;
   }
-}
+} */
 
-@keyframes erase-line {
+/* @keyframes erase-line {
   from {
     stroke-dashoffset: 0;
   }
@@ -376,9 +370,9 @@ strong {
   to {
     stroke-dashoffset: 2000;
   }
-}
+} */
 
-@-webkit-keyframes fade-in {
+/* @-webkit-keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -386,9 +380,9 @@ strong {
   to {
     opacity: 1;
   }
-}
+} */
 
-@keyframes fade-in {
+/* @keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -396,26 +390,25 @@ strong {
   to {
     opacity: 1;
   }
-}
-.acadeDetails{
+} */
+/* .acadeDetails{
   margin-bottom: 10px;
   height: 70px;
 }
 .acadeDetails article{
   font-size: 25px;
-}
+} */
 
 /* ------------------------------------------------------------------------ */
-.Slogan {
+/* .Slogan {
   color: #c5a067;
   font-family: 'Baskervville';
-  /* font-family: "Dancing Script"; */
   top: 50px;
-}
+} */
 
-.bedCrumb {
+/* .bedCrumb {
   font-style: sans;
-}
+} */
 
 .contact .heading h2 {
   color: #c5a067;
@@ -443,7 +436,6 @@ strong {
 }
 
 .contact .form-control {
-  /* padding: 25px; */
   font-family: 'Baskervville';
   font-size: 15px;
   margin-bottom: 10px;
@@ -454,7 +446,6 @@ strong {
 
 .contact button.btn {
   font-family: 'Baskervville';
-  /* padding: 10px; */
   border: none;
   border-radius: 10px;
   font-size: 25px;
@@ -490,9 +481,7 @@ strong {
   border-top: 1px solid rgba(0, 0, 0, 0.548);
 }
 
-/* .contact .content .info {
-  margin-top: 30px;
-} */
+
 
 .contact .content .info i {
   font-size: 30px;
@@ -512,7 +501,6 @@ strong {
 
 .contact .content .info h4 a, span {
   font-size: 15px;
-  /* font-weight: 600; */
   color: #000;
 }
 .info {
